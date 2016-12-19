@@ -8,14 +8,76 @@
     <meta name="description" content="Simple Vue starting application">
     <meta name="author" content="John Sparwasser">
 
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
     <link rel="stylesheet" href="assets/compiled/css/includes.css">
 </head>
 
 <body>
     <div id="app">
-        <p>{{ message }}</p>
+        <header>
+            <p><img alt="John Sparwasser headshot" src="/assets/img/headshot.jpg" /> >> John Sparwasser</p>
+        </header>
+        <section class="bio">
+            <p>bio: {</p>
+            <div class="indent">
+                <p>name: 'John Sparwasser',</p>
+                <p>title: 'Software Engineer',</p>
+                <p>website: <a href="https://johnsparwasser.com">this</a>,</p>
+                <p>twitter: <a href="https://twitter.com/johnsparwasser">@johnsparwasser</a>,</p>
+                <p>github: <a href="https://github.com/john-sparwasser">john-sparwasser</a>,</p>
+                <p>stackoverflow: <a href="http://stackoverflow.com/users/686523/john-sparwasser">John Sparwasser</a>,</p>
+                <p>bio: "John Sparwasser is a full stack developer who specializes in Laravel and Vue.",</p>
+                <p>resume: <a href="/resume.pdf">here</a>,</p>
+            </div>
+            <p>},</p>
+        </section>
+        <section class="work">
+            <p>work: [</p>
+            <div class="indent">
+                <p>{</p>
+                <div class="indent">
+                    <p>company_name: "SamCart",</p>
+                    <p>title: "Senior Software Architect",</p>
+                    <p>when: "August 2014 - December 2016"</p>
+                    <p>website: "<a href="https://samcart.com">https://samcart.com</a>,</p>
+                    <p>summary: "John was the first of three direct hires to come on to the SamCart team where he lead the development of the SamCart platform. SamCart is built on top of PHP 7.0, Laravel 5.2, and Angular 1.5. John also moved SamCart’s legacy ecommerce platform from Rackspace to Amazon Web Services. While doing this he integrated a high availability solution that utilizes load balancers and multiple application, database servers and caching schemes. SamCart now processes over $160 million a year and is projected to process over $200 million in 2017."</p>
+                </div>
+                <p>},</p>
+                <p>{</p>
+                <div class="indent">
+                    <p>company_name: "Freelance Web Deveoper &amp; Consultant",</p>
+                    <p>title: "Owner",</p>
+                    <p>when: "November 2012 - August 2014",</p>
+                    <p>website: <a href="https://johnsparwasser.com">this</a>,</p>
+                    <p>summary: "John has developed many custom websites that fit his clients’ needs. His prefered platform for this is Wordpress. He also has been brought in as a damage control specialist to save hacked and broken websites. Along with brochure websites, he has also created several web applications from the ground up.",</p>
+                </div>
+                <p>},</p>
+                <p>{</p>
+                <div class="indent">
+                    <p>company_name: "Mindgrub Technologies",</p>
+                    <p>title: "Web Developer",</p>
+                    <p>when: "December 2011 - November 2012",</p>
+                    <p>website: <a href="http://mindgrub.com">http://mindgrub.com</a>,</p>
+                    <p>summary: "John developed the admin portal of Mindgrub's ViaPlace App using Javascript and Objective-J. He also performed front end development for various small projects, utilizing PHP, Javascript, HTML5, and CSS3. John worked with an agile team to develop the Drupal powered content management system for Mindgrub's Salesbag application."</p>
+                </div>
+                <p>},</p>
+                <p>{</p>
+                <div class="indent">
+                    <p>company_name: "CSC",</p>
+                    <p>title: "Software Engineer",</p>
+                    <p>when: "January 2009 - December 2011",</p>
+                    <p>website: <a href="http://www.csc.com/">http://www.csc.com/</a>,</p>
+                    <p>summary: "John spearheaded a major infrastructure upgrade with development and QA support. He also developed the front end of a custom CMS for an IT support system, and supported the reports team with targeted SQL queries to fill report data.",</p>
+                </div>
+                <p>},</p>
+            </div>
+            <p>],</p>
+        </section>
+        <section class="copyright">
+            copyright: "John Sparwasser {{currentYear}}"
+        </section>
     </div>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.6/vue.min.js"></script>
     <script src="assets/compiled/js/script.js"></script>
 </body>

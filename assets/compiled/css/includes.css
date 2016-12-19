@@ -1,4 +1,24 @@
 body {
-  background-color: #2e4057; }
-  body p {
-    color: #99c24D; }
+  background-color: #2e4057;
+  font-family: 'Fira Mono', monospace;
+  color: #dfdfdf;
+  font-size: 14px; }
+  body a {
+    color: #50d8d7; }
+    body a:visited {
+      color: #50d8d7; }
+  body header {
+    max-width: 720px;
+    margin: 0 auto; }
+    body header img {
+      height: 64px;
+      width: 64px;
+      border-radius: 50%;
+      vertical-align: middle; }
+    body header p {
+      vertical-align: middle; }
+  body section {
+    max-width: 720px;
+    margin: 0 auto; }
+    body section .indent {
+      margin-left: 32px; }
