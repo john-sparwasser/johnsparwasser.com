@@ -3,22 +3,19 @@ body {
   font-family: 'Fira Mono', monospace;
   color: #dfdfdf;
   font-size: 14px; }
-  body a {
-    color: #50d8d7; }
-    body a:visited {
-      color: #50d8d7; }
-  body header {
+  body .wrapper {
     max-width: 720px;
     margin: 0 auto; }
-    body header img {
+    body .wrapper a {
+      color: #50d8d7; }
+      body .wrapper a:visited {
+        color: #50d8d7; }
+    body .wrapper header img {
       height: 64px;
       width: 64px;
       border-radius: 50%;
       vertical-align: middle; }
-    body header p {
+    body .wrapper header p {
       vertical-align: middle; }
-  body section {
-    max-width: 720px;
-    margin: 0 auto; }
-    body section .indent {
-      margin-left: 32px; }
+  body .indent {
+    margin-left: 32px; }

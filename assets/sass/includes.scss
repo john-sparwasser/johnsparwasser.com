@@ -11,30 +11,28 @@ body {
     font-family:'Fira Mono', monospace;
     color:$light-grey;
     font-size:14px;
-    a {
-        color:#50d8d7;
-        &:visited{
+    .wrapper {
+        max-width:720px;
+        margin:0 auto;
+        a {
             color:#50d8d7;
+            &:visited{
+                color:#50d8d7;
+            }
+        }
+        header {
+            img {
+                height:64px;
+                width:64px;
+                border-radius:50%;
+                vertical-align:middle
+            }
+            p {
+                vertical-align:middle;
+            }
         }
     }
-    header {
-        max-width:720px;
-        margin:0 auto;
-        img {
-            height:64px;
-            width:64px;
-            border-radius:50%;
-            vertical-align:middle
-        }
-        p {
-            vertical-align:middle;
-        }
-    }
-    section {
-        max-width:720px;
-        margin:0 auto;
-        .indent {
-            margin-left:32px;
-        }
+    .indent {
+        margin-left:32px;
     }
 }

@@ -13,11 +13,11 @@
 </head>
 
 <body>
-    <div id="app">
+    <div id="app" class="wrapper">
         <header>
-            <p><img alt="John Sparwasser headshot" src="/assets/img/headshot.jpg" /> >> John Sparwasser</p>
+            <p><img alt="John Sparwasser headshot" src="/assets/img/headshot.jpg" /> >> John Sparwasser: {</p>
         </header>
-        <section class="bio">
+        <section class="bio indent">
             <p>bio: {</p>
             <div class="indent">
                 <p>name: 'John Sparwasser',</p>
@@ -27,11 +27,11 @@
                 <p>github: <a href="https://github.com/john-sparwasser">john-sparwasser</a>,</p>
                 <p>stackoverflow: <a href="http://stackoverflow.com/users/686523/john-sparwasser">John Sparwasser</a>,</p>
                 <p>bio: "John Sparwasser is a full stack developer who specializes in Laravel and Vue.",</p>
-                <p>resume: <a href="/resume.pdf">here</a>,</p>
+                <p>resume: <a href="https://docs.google.com/document/d/1VnSX6VHpsPASjrwwyxA_PFtwPL0YLKtMpnn3WfAvkjQ/edit?usp=sharing">here</a>,</p>
             </div>
             <p>},</p>
         </section>
-        <section class="work">
+        <section class="work indent">
             <p>work: [</p>
             <div class="indent">
                 <p>{</p>
@@ -73,9 +73,12 @@
             </div>
             <p>],</p>
         </section>
-        <section class="copyright">
+        <section class="copyright indent">
             copyright: "John Sparwasser {{currentYear}}"
         </section>
+        <footer>
+            <p>}</p>
+        </footer>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.6/vue.min.js"></script>
