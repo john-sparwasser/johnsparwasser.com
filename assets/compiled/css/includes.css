@@ -21,3 +21,5 @@ body {
     margin-left: 32px; }
   body .string {
     color: #E6DB74; }
+  body .keyword {
+    color: #F92672; }
