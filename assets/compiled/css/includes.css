@@ -19,3 +19,5 @@ body {
       vertical-align: middle; }
   body .indent {
     margin-left: 32px; }
+  body .string {
+    color: #E6DB74; }
